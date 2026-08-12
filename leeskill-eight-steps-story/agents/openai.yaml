@@ -1,0 +1,4 @@
+interface:
+  display_name: "八步叙事检查"
+  short_description: "用丹·哈蒙八步故事圆环检查草稿叙事缺口与完整闭环问题"
+  default_prompt: "Use $leeskill-eight-steps-story to diagnose the narrative arc in my completed draft without inventing experiences."
