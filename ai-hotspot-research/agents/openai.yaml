@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 热点调研工作流"
+  short_description: "核对近三天热点、一手信源与事实边界，并筛选内容选题"
+  default_prompt: "Use $ai-hotspot-research to 调研近期 AI 热点，核对发布时间和一手信源，区分事实、声明、报道与推测，并推荐可靠选题。"
+policy:
+  allow_implicit_invocation: true
