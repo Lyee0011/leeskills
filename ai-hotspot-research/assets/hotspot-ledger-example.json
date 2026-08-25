@@ -1,0 +1,89 @@
+{
+  "report": {
+    "title": "AI 热点调研示例",
+    "audience": "中文 AI 内容读者",
+    "conclusion": "本示例演示如何把事实、来源方声明和分析推测分开记录。所有名称和链接均为演示数据。",
+    "as_of": "2026-08-25T15:30:00+08:00",
+    "days": 3,
+    "utc_offset": "+08:00"
+  },
+  "items": [
+    {
+      "title": "示例公司发布新的 AI 工具",
+      "source": "示例公司官方博客",
+      "source_url": "https://example.com/official-release",
+      "source_kind": "official",
+      "first_hand": true,
+      "published_at": "2026-08-24T12:00:00Z",
+      "updated_at": null,
+      "status": "new",
+      "evidence": "B",
+      "facts": [
+        "官方发布页面在调研窗口内上线",
+        "产品页面列出了三个新功能"
+      ],
+      "source_claims": [
+        "官方称在指定测试中最高节省 30% 成本"
+      ],
+      "inferences": [
+        "这可能说明竞争重点正在延伸到部署成本"
+      ],
+      "corroboration": [
+        {
+          "source": "示例独立测试机构",
+          "url": "https://example.org/independent-test",
+          "note": "复核了部分测试条件，但没有覆盖全部场景"
+        }
+      ],
+      "recommended": true,
+      "angle": "为什么 AI 产品开始强调完成任务的单位成本",
+      "audience": "AI 产品用户和从业者",
+      "selection_reason": "一手材料完整，且成本变化与普通用户有关",
+      "risk": "30% 为厂商自测的最高值，不能推广到所有场景"
+    },
+    {
+      "title": "旧研究近期再次传播",
+      "source": "示例科技媒体",
+      "source_url": "https://example.com/media-report",
+      "source_kind": "media",
+      "first_hand": false,
+      "published_at": "2026-08-20T09:00:00+08:00",
+      "updated_at": "2026-08-24T10:00:00+08:00",
+      "status": "resurfaced",
+      "evidence": "C",
+      "facts": [],
+      "source_claims": [
+        "媒体称该研究近期重新引发讨论"
+      ],
+      "inferences": [
+        "重新传播不代表研究刚刚发布"
+      ],
+      "corroboration": [],
+      "recommended": false,
+      "angle": "",
+      "audience": "",
+      "selection_reason": "",
+      "risk": "不能使用转载或更新时间冒充首次发布时间"
+    },
+    {
+      "title": "尚未找到一手来源的传闻",
+      "source": "示例聚合页面",
+      "source_url": "https://example.com/unverified-item",
+      "source_kind": "aggregator",
+      "first_hand": false,
+      "published_at": null,
+      "updated_at": null,
+      "status": "pending",
+      "evidence": "E",
+      "facts": [],
+      "source_claims": [],
+      "inferences": [],
+      "corroboration": [],
+      "recommended": false,
+      "angle": "",
+      "audience": "",
+      "selection_reason": "",
+      "risk": "发布时间和原始出处都未确认"
+    }
+  ]
+}
