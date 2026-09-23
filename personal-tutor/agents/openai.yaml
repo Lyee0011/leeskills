@@ -1,0 +1,4 @@
+interface:
+  display_name: "个人导师|AI学习skill"
+  short_description: "先解释、再追问，留下真实学习记录，让零散知识逐步连成体系"
+  default_prompt: "请使用 $personal-tutor 帮我建立学习库，再按我的时间和基础安排学习。"
