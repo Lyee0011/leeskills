@@ -10,7 +10,7 @@ import sys
 
 PACKAGE = Path(__file__).resolve().parent.parent
 TEMPLATES = PACKAGE / "assets" / "library"
-METHOD = "个人导师-AI学习skill.md"
+METHOD = "自我解释skill.md"
 RESERVED = {"README.md", "AGENTS.md", METHOD, "课题模板", "跨课题串联日志",
             "课题A", "课题B", "课题名", "用户选定的课题A", "用户选定的课题B"}
 

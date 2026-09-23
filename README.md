@@ -4,7 +4,7 @@
 
 | Skill | 用途 |
 | --- | --- |
-| [个人导师\|AI学习skill](personal-tutor/) | 自我解释、逐步追问、学习记录与知识串联 |
+| [自我解释skill](personal-tutor/) | 自我解释、逐步追问、学习记录与知识串联 |
 | [八步故事写作 Skill](leeskill-eight-steps-story/) | 八步故事结构与叙事诊断 |
 
 想使用学习 Skill，直接把这句话交给自己的 AI：
