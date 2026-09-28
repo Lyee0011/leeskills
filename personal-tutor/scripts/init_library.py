@@ -112,7 +112,7 @@ def initialize(destination, topic=None):
     return {
         "root": str(root), "topic": topic, "created": created, "preserved": kept,
         "verified_files": sorted(str(path.relative_to(root)) for path in plan),
-        "next": "基础文件已检查。按 SKILL.md 读回内容与链接，填写已知目标并补全导航；保留原历史。只建库时到此结束。"
+        "next": "基础文件已检查。按 SKILL.md 读回内容与链接，填写已知目标并补全导航；保留原历史。核验成功后，按 SKILL.md 主动给出学习邀请，再等待用户回答；已明确稍后再学或本次不开始学习时，不再追问。"
     }
 
 
