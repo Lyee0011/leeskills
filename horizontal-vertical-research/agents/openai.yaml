@@ -1,0 +1,4 @@
+interface:
+  display_name: "横纵分析法"
+  short_description: "结合历史演进、同类比较与横纵交汇判断，研究公司、产品、技术及理念"
+  default_prompt: "使用 $horizontal-vertical-research 对我指定的对象开展横纵分析，说明它如何走到今天、与同类有何差异，以及当前判断的依据。"
